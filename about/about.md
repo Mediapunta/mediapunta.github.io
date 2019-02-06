@@ -13,7 +13,7 @@ subclass: 'post page'
 - Job : AWS System Engineer
 
 ## Skill
-- VMware :
+- VMware
     * VCP6-DCV
 - AWS
 - Azure

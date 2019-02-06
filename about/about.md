@@ -13,17 +13,18 @@ subclass: 'post page'
 - Job : AWS System Engineer
 
 ## Skill
-- VMware : :star2: :star2:
+- VMware :
     * VCP6-DCV
-- AWS : :star2:
-- Azure : :star2:
-- Windows Server : :star2: :star2:
+- AWS
+- Azure
+- Windows Server
     * MCSA
-- Linux : :star2: 
+- Linux 
 
 ## 소개
 
 안녕하세요:)
+
 VMware 엔지니어로 엔지니어 생활을 시작하였습니다.
 
 클라우드 기술에 관심이 많고 꾸준히 공부하고 있습니다.

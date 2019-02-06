@@ -9,7 +9,7 @@ language: 'ko-kr'
 # Website info
 name: 'Helion의 기술블로그'
 description: "엔지니어 생활하며 배우고 경험한 기술을 공유하는 공간 입니다:)"
-baseurl: /mediapunta/
+baseurl: /mediapunta.github.io/
 short_url: 'mediapunta.github.io/'
 google_analytics: UA-69281367-1
 #disqus: username
@@ -48,11 +48,11 @@ lsi: false
 username: mediapunta
 repo: mediapunta
 branch: master
-relative_source: ../jasper/
-destination: ../jasper-pages/
-production_url:  https://mediapunta.github.io/
+#relative_source: ../jasper/
+#destination: ../jasper-pages/
+#production_url:  https://mediapunta.github.io/
 #production_url:  https://jasper.github.io/jasper/
-source_url:  https://github.com/mediapunta/
+#source_url:  https://github.com/mediapunta/
 #source_url:  https://github.com/jekyller/jasper/
 
 exclude:

@@ -4,17 +4,17 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-uk'
+language: 'ko-kr'
 
 # Website info
-name: 'Finding The Way Home'
+name: 'Helion의 기술블로그'
 description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
 
-short_url: 'jekyller.github.io/jasper/'
+short_url: 'mediapunta.github.io/'
 google_analytics: UA-69281367-1
-disqus: username
+#disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper/
+#baseurl: /jasper/
 
 # Permalinks
 permalink: /:title
@@ -45,13 +45,15 @@ plugins: [jekyll-paginate]
 # or "master" otherwise
 safe: false
 lsi: false
-username: jekyller
-repo: jasper
+username: mediapunta
+repo: mediapunta
 branch: master
 relative_source: ../jasper/
 destination: ../jasper-pages/
-production_url:  https://jekyller.github.io/jasper/
-source_url:  https://github.com/jekyller/jasper/
+production_url:  https://mediapunta.github.io/
+#production_url:  https://jasper.github.io/jasper/
+source_url:  https://github.com/mediapunta/
+#source_url:  https://github.com/jekyller/jasper/
 
 exclude:
   - README.md

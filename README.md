@@ -1,9 +1,9 @@
-안녕하세요:) 
-현재 AWS 엔지니어로 열심히 일하고 있습니다.
+안녕하세요:) <br /> 
+현재 AWS 엔지니어로 열심히 일하고 있습니다. <br />
 
-또한, VMware 엔지니어로 일 하였습니다.
+또한, VMware 엔지니어로 일 하였습니다. <br />
 
-AWS Solution Architect - Professional 
+AWS Solution Architect - Professional <br /> 
 VCP6 - DCV (Data Center Virtualization)
 
 

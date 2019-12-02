@@ -3,7 +3,7 @@ title: Helion Techub
 subtitle: by HTML5 UP
 email: huyhjh@gmail.com
 description: 일하면서 경험해왔던 내용을 위주로 작성하였습니다:)<br /> AWS & Azure & VMware & Datadog
-baseurl: # the subpath of your site, e.g. /blog "/helion" 
+baseurl: "/" # the subpath of your site, e.g. /blog "/helion" 
 url: # the base hostname & protocol for your site
 author: Helion
 # street_address: 1234 Somewhere Road

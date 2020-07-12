@@ -1,16 +1,9 @@
----
-layout: page
-title: About
-image: pic02.jpg
-permalink: /about/
----
-
 Helion Techub - Personal Blog
 ======
 
-안녕하세요:)
-클라우드 기술에 빠져살고 있는 Helion 입니다.
-현재는 AWS 엔지니어로 활동하고 있습니다.
+안녕하세요:)  
+클라우드 기술에 빠져살고 있는 Helion 입니다.  
+현재는 AWS 엔지니어로 활동하고 있습니다.  
 
 * 이력
   - AWS Engineer

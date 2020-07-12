@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="row">
+    <article class="col col-12 col-t-8 post">
+        <div class="post-content">        
+          <div class="post-head">
+            {% if page.tags.size >= 1 %}
+            <div class="post-tag">
+              {% for tag in page.tags %}
+              <a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+              {% endfor %}
+            </div>
+            {% endif %}
+            <h1 class="post-title">{{ page.title | escape }}</h1>
+          </div>      
+        
+          <div class="post-body">
+            {% if site.posts.size == 0 %}
+            <h2>No post found</h2>
+            {% else %}
+            {% for post in site.posts %}
+            {% if post.category == 'vmware' %}
+            {% if post.title != 404 %}
+            <div class="list-item">
+              <h2 class="list-post-title">          
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              </h2>
+              <div class="list-post-date">
+                <p><time>{{ post.date | date_to_string }}</time></p>
+                <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+                <description>{{post.description}}</description>
+                <h3></h3> <!-- 공백용 -->
+                <ul class="actions">
+                  <li><a href="{{ site.baseurl }}{{ post.url }}"class="button">Learn more</a></li>
+                </ul>  
+              </div>
+              {% if paginator.page == 1 %}  
+            </div>
+            {% endif %}
+            {% endif %}
+            
+            {% endif %}
+            {% endfor %}
+            {% endif %}                   
+        </div>      
+    </article> <!-- /.post -->
+        
+    <div class="col col-12 col-t-4">
+      {% include sidebar.html %}
+    </div>   
+  </div>
+</div>

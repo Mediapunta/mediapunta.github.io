@@ -1,36 +1,75 @@
-# site settings
-title: Helion Techub
-subtitle: by HTML5 UP
-email: huyhjh@gmail.com
-description: 일하면서 경험해왔던 내용을 위주로 작성하였습니다:)<br /> AWS & Azure & VMware & Datadog
-baseurl: # the subpath of your site, e.g. /blog "/helion" 
-url: # the base hostname & protocol for your site
-author: Helion
-# street_address: 1234 Somewhere Road
-city: Seoul
-# state: TN
-# zip_code: 55555
-country: South Korea
-# phone: (716) 555-5555
+#-------------------------------
+# General Site Settings
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+title: Helion의 Techub
+description: Helion의 Techub. # this means to ignore newlines until "baseurl:"
+#baseurl: "/helion" # the subpath of your site, e.g. /blog
+baseurl: "/helion" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# social settings
-500px_url:
-facebook_url:
-github_url: https://github.com/mediapunta
-#gitlab_url: https://gitlab.com/mediapunta
-#googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/
-#pinterest_url:
-#slack_url:
-#twitter_url: https://twitter.com/
 
-# build settings
+#-------------------------------
+# About Section
+author-name:   Helion
+author-avatar: LambdaRamG.png
+
+
+#-------------------------------
+# Contact links
+github: https://www.github.com/mediapunta # Add your Facebook handle
+linkedin:  https://www.linkedin.com/in/junha-hwang-5b4578107/ # Add your Facebook handle
+facebook:  https://facebook.com/ # Add your Facebook handle
+instagram: https://www.instagram.com/ # Add your Facebook handle
+twitter:   https://twitter.com/ # Add your Facebook handle
+pinterest: https://www.pinterest.com/ # Add your Facebook handle
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+
+#-------------------------------
+# Build settings
 markdown: kramdown
+permalink: ':title/'
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/page/:num"
+
+include:
+  - _pages
 
 sass:
+  sass_dir: _sass
   style: compressed
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
